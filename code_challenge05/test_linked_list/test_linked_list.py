@@ -48,7 +48,7 @@ def test_includes_true(LL):
     # actual = LL.head.value
     # expected = True
     # assert actual == expected
-    assert LL.includes(5) == True
+    assert LL.includes(7) == True
 
 def test_includes_false(LL):
     assert LL.includes(13) == False
