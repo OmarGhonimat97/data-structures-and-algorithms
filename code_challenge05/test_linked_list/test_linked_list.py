@@ -44,11 +44,15 @@ def test_insert(LL):
     expected = 7
     assert actual == expected
 
-def test_includes(LL):
+def test_includes_true(LL):
     # actual = LL.head.value
     # expected = True
     # assert actual == expected
-    assert LL
+    assert LL.includes(5) == True
+
+def test_includes_false(LL):
+    assert LL.includes(13) == False
+
 
 @pytest.fixture
 def node():
