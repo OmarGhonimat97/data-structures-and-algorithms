@@ -52,6 +52,42 @@ class LinkedList:
             current = current.next
         return False
 
+    def insert_before(self, value, new_value):
+        """
+        inserts a new node before a given node
+        """
+        if self.includes(value):
+            current = self.head
+            if current.value == value:
+                new_node = Node(new_value)
+                new_node.next = current
+                self.head = new_node
+            else:
+                while current.next:
+                    if current.next.value == value:
+                        new_node = Node(new_value)
+                        new_node.next = current.next
+                        current.next =new_node
+                        break
+                    current = current.next
+
+    def insert_after(self, value, new_value):
+        """
+        inserts a new node after a given node
+        """
+        if self.includes(value):
+            current = self.head
+            while current:
+                if current.value == value:
+                    new_node = Node(new_value)
+                    new_node.next = current.next
+                    current.next = new_node
+                    break
+                elif current.next == None:
+                    new_node = Node(new_value)
+                    current.next = new_node
+                current = current.next
+
     def __str__(self):
         current = self.head
         items = ''
@@ -70,16 +106,10 @@ if __name__ == '__main__':
     print(ll.includes(5))
     # print(ll.head.value)
     # print(ll.head.next.value)
+    # ll.insert_before(5, 8)
+    ll.insert_after(5, 8)
+
     print(ll)
-    # print(ll)
 
-## Algorithem:
-# 1- create the append method and take the value
-# 2- create new node < class Node >
-# -  check if linked list is empty by checking if the value of the head equals None
-#    if yes make the head value equal the new node
-#    if no  declare the current variable equal head value
 
-# 4- use while loop with a con the vlaue of the cruunt.next not equal None
-#     crrunt equal crrunt.next
-# 5- crrunt.next equal new node
+
