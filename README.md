@@ -8,3 +8,4 @@
 | Code Challenge 02 | [CoC02](./code_challenge02/README.md) |
 | Code Challenge 03 | [CoC03](./code_challenge03/README.md) |
 | Code Challenge 05 | [CoC05](./code_challenge05/README.md) |
+| Code Challenge 06 | [CoC06](./code_challenge06/README.md) |
