@@ -14,8 +14,8 @@ This challenge requires building a linked list class, and adding methods to the 
 - includes >> which searches for a certain value in the linked list and return true if found or false if not
 - to string >> which returns a string representing all the values in the linked list. 
 - append >> adds a new node to the end of the linked list
-- insert before >> insert the new node before a certain value in the linked list
-- insert after >> insert the new node after a certain value in the linked list
+- insert before >> insert the new node before a certain value (node) in the linked list
+- insert after >> insert the new node after a certain value (node) in the linked list
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
