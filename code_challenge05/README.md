@@ -3,6 +3,7 @@
 Singly Linked List, has two pointers, pointing to the current and the next node.
 
 ## Whiteboard
+> Whiteboard for the append method
 
 ![linked-list-insertions](./assets/linked_list_insertions.PNG)
 
