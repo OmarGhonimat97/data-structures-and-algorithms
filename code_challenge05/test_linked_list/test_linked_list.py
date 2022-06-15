@@ -1,4 +1,4 @@
-from linked_list.linked_list import Node, LinkedList
+from linked_list.linked_list import LinkedList, Node
 import pytest
 
 
@@ -78,6 +78,33 @@ def test_insert_after_end(LL6):
     expected = 9
     assert actual == expected
 
+def test_k_greater_than_length(LL7):
+    actual = LL7.kth_from_end(6)
+    expected = 'Index is greater than the length of the linked list or is less than zero'
+    assert actual == expected
+
+def test_k_equal_length(LL7):
+    actual = LL7.kth_from_end(3)
+    expected = 1
+    assert actual == expected
+
+def test_k_not_positive(LL7):
+    actual = LL7.kth_from_end(-4)
+    expected = 'Index is greater than the length of the linked list or is less than zero'
+    assert actual == expected
+
+def test_linked_list_has_one_node(LL8):
+    actual = LL8.kth_from_end(0)
+    expected = 4
+    assert actual == expected
+
+def test_k_in_the_middle(LL7):
+    actual = LL7.kth_from_end(2)
+    expected = 2
+    assert actual == expected
+
+
+
 @pytest.fixture
 def node():
     nod = Node(6)
@@ -151,3 +178,19 @@ def LL6():
     LL6.insert(1)
     LL6.insert_after(3, 9)
     return LL6
+
+# test kth from end
+@pytest.fixture
+def LL7():
+    LL7 = LinkedList()
+    LL7.insert(4)
+    LL7.insert(3)
+    LL7.insert(2)
+    LL7.insert(1)
+    return LL7
+
+@pytest.fixture
+def LL8():
+    LL8 = LinkedList()
+    LL8.insert(4)
+    return LL8

@@ -67,7 +67,7 @@ class LinkedList:
                     if current.next.value == value:
                         new_node = Node(new_value)
                         new_node.next = current.next
-                        current.next =new_node
+                        current.next = new_node
                         break
                     current = current.next
 
@@ -87,6 +87,25 @@ class LinkedList:
                     new_node = Node(new_value)
                     current.next = new_node
                 current = current.next
+
+
+    def kth_from_end(self, k):
+        current = self.head
+        length = -1
+        while current != None:
+            length += 1
+            current = current.next
+
+        if k > length or k < 0:
+            return 'Index is greater than the length of the linked list or is less than zero'
+        else:
+            current = self.head
+            for i in range(0, length - k):
+                current = current.next
+            return current.value
+
+
+
 
     def __str__(self):
         current = self.head
@@ -108,8 +127,10 @@ if __name__ == '__main__':
     # print(ll.head.next.value)
     # ll.insert_before(5, 8)
     ll.insert_after(5, 8)
-
     print(ll)
+    print(ll.kth_from_end(0))
+
+
 
 
 
