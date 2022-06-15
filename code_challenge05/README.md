@@ -7,6 +7,10 @@ Singly Linked List, has two pointers, pointing to the current and the next node.
 
 ![linked-list-insertions](./assets/linked_list_insertions.PNG)
 
+> Whiteboard for kthFromEnd(k) method
+
+![linked-list-kth](./assets/linked-list-kth.PNG)
+
 ## Challenge
 <!-- Description of the challenge -->
 This challenge requires building a linked list class, and adding methods to the linked list:
@@ -16,7 +20,7 @@ This challenge requires building a linked list class, and adding methods to the 
 - append >> adds a new node to the end of the linked list
 - insert before >> insert the new node before a certain value (node) in the linked list
 - insert after >> insert the new node after a certain value (node) in the linked list
-
+- linked-list-kth
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 The big O time complexity for depends on the method used, for example for the append method, it is
@@ -33,3 +37,4 @@ required value exists and false if the value does not exist in the linked list.
 4. to string >> returns a string representing all the values in the linked list
 5. insert before >> insert the new node before a certain value in the linked list 
 6. insert after >> insert the new node after a certain value in the linked list
+7. kth_from_end >> take an argument which is the index of the required node and returns the node value at the specified index
