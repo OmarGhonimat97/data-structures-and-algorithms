@@ -36,6 +36,7 @@ def zip_lists(ll1, ll2):
         current1 = ll1.next
         current2 = ll2.next
         ll2.head = current2
+    return str(ll1)
 
 # def zip_lists(l1, l2):
 #     current1 = l1.head
@@ -81,6 +82,8 @@ if __name__ == '__main__':
     l_l_2.append(5)
     l_l_2.append(6)
 
+    print(l_l_1)
+    print(l_l_2)
     zip_lists(l_l_1, l_l_2)
     print(l_l_1)
     print(l_l_2)

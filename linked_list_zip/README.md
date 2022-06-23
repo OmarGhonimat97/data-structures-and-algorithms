@@ -12,13 +12,22 @@ You have access to the Node class and all the properties on the Linked List clas
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 
-[linked-list-zip](assets/linked_list_zip.PNG)
+![linked-list-zip](assets/linked_list_zip.PNG)
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 O(n) (linear time complexity) where n is the number of the element in the linked list.
 
-O(1) space complexity, as we are just modifying the already existing linked lists
+O(1) space complexity, as we are just modifying the already existing linked lists.
 
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
+
+```
+ll1 = < 1 > --> < 2 > --> < 3 > --> Null
+ll2 = < 4 > --> < 5 > --> < 6 > --> Null
+print(ll1.zip_lists(ll1, ll2))
+
+Output:
+< 1 > --> < 4 > --> < 2 > --> < 5 > --> < 3 > --> < 6 > --> Null
+```
