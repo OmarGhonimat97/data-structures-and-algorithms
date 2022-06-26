@@ -106,7 +106,6 @@ class LinkedList:
 
 
 
-
     def __str__(self):
         current = self.head
         items = ''
@@ -119,18 +118,23 @@ class LinkedList:
 
 if __name__ == '__main__':
     ll = LinkedList()
-    ll.append(5)
-    ll.append(10)
-    ll.insert(15)
-    print(ll.includes(5))
-    # print(ll.head.value)
-    # print(ll.head.next.value)
-    # ll.insert_before(5, 8)
-    ll.insert_after(5, 8)
+    # ll.append(5)
+    # ll.append(10)
+    # ll.insert(15)
+    # print(ll.includes(5))
+    # # print(ll.head.value)
+    # # print(ll.head.next.value)
+    # # ll.insert_before(5, 8)
+    # ll.insert_after(5, 8)
+    # print(ll)
+    # print(ll.kth_from_end(0))
+
+    ll.insert(3)
+    ll.insert(2)
+    ll.insert(1)
     print(ll)
-    print(ll.kth_from_end(0))
-
-
+    ll.reverse_linked_list()
+    print(ll)
 
 
 
