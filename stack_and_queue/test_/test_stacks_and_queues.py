@@ -40,10 +40,10 @@ def test_peek_next_stack(stack):
 def test_instantiating_empty_stack(stack):
     assert stack.top == None
 
-# def test_pop_or_peek_empty_error(stack):
-#     actual = stack.pop()
-#     expected = pytest.raises(EmptyStackException)
-#     assert actual == expected
+def test_pop_or_peek_empty_error(stack):
+    with pytest.raises(EmptyStackException):
+        stack.pop()
+        stack.peek()
 
 #Queues Tests
 def test_enqueue(queue):
@@ -80,10 +80,10 @@ def test_empty_queue(queue):
 def test_instantiating_empty_queue(queue):
     assert queue.front == None
 
-# def test_dequeue_or_peek_empty_error(queue):
-#     with pytest.raises(Exception) as e:
-#         queue.dequeue()
-#     assert repr(e) == '<ExceptionInfo EmptyQueueException("dequeue_or_peek from empty queue is_not allowed") tblen=2>'
+def test_dequeue_or_peek_empty_error(queue):
+    with pytest.raises(EmptyQueueException):
+        queue.dequeue()
+        queue.peek()
 
 
 
