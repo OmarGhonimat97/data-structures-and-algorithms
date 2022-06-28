@@ -1,10 +1,12 @@
 class EmptyQueueException(Exception):
     pass
 
+
 class Node:
     def __init__(self, value):
         self.value = value
         self.next = None
+
 
 class Queue:
     def __init__(self):
@@ -38,8 +40,6 @@ class Queue:
     def is_empty(self):
         return True if self.front == None else False
 
-
-
     def __str__(self):
         current = self.front
         items = ''
@@ -51,36 +51,48 @@ class Queue:
         return items
 
 
-
 class AnimalShelter(object):
     def __init__(self):
-        self.dogs = []
-        self.cats = []
+        self.dogs = Queue()
+        self.cats = Queue()
 
     def enqueue(self, name, pref):
+        pref = pref.lower()
         animal = {
             "name": name,
             "type": pref
         }
         if pref == "dog":
-            self.dogs.append(animal)
+            self.dogs.enqueue(animal)
         elif pref == "cat":
-            self.cats.append(animal)
+            self.cats.enqueue(animal)
         else:
             print("Invalid animal type")
 
-
     def dequeue(self, pref):
+        pref = pref.lower()
         if pref == "dog":
-            return self.dogs.pop()
+            return self.dogs.dequeue()
         elif pref == "cat":
-            return self.cats.pop()
+            return self.cats.dequeue()
         else:
             return None
 
 
-
-
-
 if __name__ == '__main__':
-    pass
+    animal_shelter = AnimalShelter()
+    animal_shelter.enqueue('Jona', 'dog')
+    animal_shelter.enqueue('Grace', 'CAt')
+    animal_shelter.enqueue('Rex', 'dog')
+    animal_shelter.enqueue('Lena', 'dog')
+    animal_shelter.enqueue('Oliver', 'cat')
+    animal_shelter.enqueue('Emma', 'cat')
+
+    print(animal_shelter.dogs)
+    print(animal_shelter.cats)
+
+    print(animal_shelter.dequeue('cat'))
+    print(animal_shelter.dequeue('DOG'))
+
+
+
