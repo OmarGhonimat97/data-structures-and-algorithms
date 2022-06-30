@@ -14,3 +14,4 @@
 | Code Challenge 09 | [CoC09](./stack_and_queue/README.md)          |
 | Code Challenge 11 | [CoC11](stack_queue_pseudo/README.md)         |
 | Code Challenge 12 | [CoC12](stack_queue_animal_shelter/README.md) |
+| Code Challenge 13 | [CoC13](stack_queue_brackets/README.md)       |

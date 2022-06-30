@@ -4,9 +4,7 @@
     <list default="true" id="b224448c-01e1-4545-90e5-75f75bf8d4cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack_queue_animal_shelter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/stack_queue_animal_shelter/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stack_queue_animal_shelter/stack_queue_animal_shelter.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack_queue_animal_shelter/stack_queue_animal_shelter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack_queue_animal_shelter/test_/test_stack_queue_animal_shelter.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack_queue_animal_shelter/test_/test_stack_queue_animal_shelter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="stack-queue-animal-shelter" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,7 +38,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/LTUC/python401/data-structures-and-algorithms/stack_queue_animal_shelter/assets",
+    "last_opened_file_path": "C:/Users/LTUC/python401/data-structures-and-algorithms/stack_queue_brackets/assets",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -52,7 +50,7 @@
       <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\code_challenge02" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_stack_queue_animal_shelter.test_enqueue_cat">
+  <component name="RunManager" selected="Python.stack_queue_brackets">
     <configuration name="stack_queue_animal_shelter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,18 +72,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_linked_list_zip.test_zip_empty" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="stack_queue_brackets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linked_list_zip/test_zip" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack_queue_brackets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_linked_list_zip.test_zip_empty&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stack_queue_brackets/stack_queue_brackets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_linked_list_zip.test_zip_one" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -132,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_stack_queue_animal_shelter.test_enqueue_cat" />
+        <item itemvalue="Python.stack_queue_brackets" />
         <item itemvalue="Python.stack_queue_animal_shelter" />
+        <item itemvalue="Python tests.Python tests for test_stack_queue_animal_shelter.test_enqueue_cat" />
         <item itemvalue="Python tests.Python tests for test_stack_queue_pseudo.test_enqueue_stack" />
         <item itemvalue="Python tests.Python tests for test_linked_list_zip.test_zip_one" />
-        <item itemvalue="Python tests.Python tests for test_linked_list_zip.test_zip_empty" />
       </list>
     </recent_temporary>
   </component>
