@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b224448c-01e1-4545-90e5-75f75bf8d4cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack_queue_animal_shelter/stack_queue_animal_shelter.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack_queue_animal_shelter/stack_queue_animal_shelter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +32,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/LTUC/python401/data-structures-and-algorithms/stack_queue_brackets/assets",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LTUC/python401/data-structures-and-algorithms/stack_queue_brackets/assets&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\stack_queue_animal_shelter\assets" />
@@ -50,7 +48,28 @@
       <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\code_challenge02" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.stack_queue_brackets">
+  <component name="RunManager" selected="Python.circular_queue">
+    <configuration name="circular_queue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/circular_queue" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/circular_queue/circular_queue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="stack_queue_animal_shelter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,20 +112,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_linked_list_zip.test_zip_one" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linked_list_zip/test_zip" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_linked_list_zip.test_zip_one&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_stack_queue_animal_shelter.test_enqueue_cat" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,14 +142,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.circular_queue" />
         <item itemvalue="Python.stack_queue_brackets" />
         <item itemvalue="Python.stack_queue_animal_shelter" />
         <item itemvalue="Python tests.Python tests for test_stack_queue_animal_shelter.test_enqueue_cat" />
         <item itemvalue="Python tests.Python tests for test_stack_queue_pseudo.test_enqueue_stack" />
-        <item itemvalue="Python tests.Python tests for test_linked_list_zip.test_zip_one" />
       </list>
     </recent_temporary>
   </component>
+  <component name="ShelveChangesManager" show_recycled="true" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -154,6 +160,14 @@
       <option name="presentableId" value="Default" />
       <updated>1654070144737</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixing update">
+      <created>1656572393121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656572393121</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,5 +180,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixing update" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing update" />
   </component>
 </project>
