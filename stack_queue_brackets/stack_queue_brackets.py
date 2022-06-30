@@ -1,8 +1,8 @@
-
+import pysnooper
 open_brackets = ["[","{","("]
 close_brackets = ["]","}",")"]
 
-
+@pysnooper.snoop()
 def validate_brackets(input_string):
     stack = []
     for i in input_string:
