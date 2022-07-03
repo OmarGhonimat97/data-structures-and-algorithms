@@ -227,12 +227,12 @@ class BinarySearchTree(BinaryTree):
 
 if __name__ == "__main__":
     tree = BinaryTree()
-    # tree.root = TNode(10)
-    # tree.root.left = TNode(20)
-    # tree.root.right = TNode(50)
-    # tree.root.left.left = TNode(30)
-    # tree.root.left.right = TNode(40)
-    # tree.root.right.left = TNode(60)
+    # tree.root = TNode(1)
+    # tree.root.left = TNode(2)
+    # tree.root.right = TNode(5)
+    # tree.root.left.left = TNode(3)
+    # tree.root.left.right = TNode(4)
+    # tree.root.right.left = TNode(6)
 
     print(tree.breadth_first())
     tree.pre_order()
@@ -252,8 +252,8 @@ if __name__ == "__main__":
     print(tree.post_order(tree.root))
 
     # bst = BinarySearchTree()
-    # bst.add(10)
-    # bst.add(20)
-    # bst.add(30)
-    # bst.add(40)
+    # bst.add(1)
+    # bst.add(2)
+    # bst.add(3)
+    # bst.add(4)
     # print(bst.pre_order())
