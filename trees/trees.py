@@ -152,23 +152,30 @@ class BinaryTree:
     #         if top.left:
     #             stack.push(top.left)
 
-    #
-    def post_order(self):
-        if not self.root:
-            return self.root
+    def post_order(self, root):
         output = []
-
-        def _walk(root):
-            if root.left:
-                _walk(root.left)
-
-            if root.right:
-                _walk(root.right)
-
+        if root:
+            output = self.post_order(root.left)
+            output = output + self.post_order(root.right)
             output.append(root.value)
-
-        _walk(self.root)
         return output
+
+    # def post_order(self):
+    #     output = []
+    #     if not self.root:
+    #         return self.root
+    #
+    #     def _walk(root):
+    #
+    #         if root:
+    #             output = self._walk(root.left)
+    #             output = output + self._walk(root.right)
+    #             output.append(root.value)
+    #         return output
+    #
+    #     _walk(self.root)
+    #     return output
+
 
 
 class BinarySearchTree(BinaryTree):
@@ -242,11 +249,11 @@ if __name__ == "__main__":
     print("in order")
     print(tree.in_order())
     print("post order ")
-    print(tree.post_order())
+    print(tree.post_order(tree.root))
 
-    bst = BinarySearchTree()
-    bst.add(10)
-    bst.add(20)
-    bst.add(30)
-    bst.add(40)
-    print(bst.pre_order())
+    # bst = BinarySearchTree()
+    # bst.add(10)
+    # bst.add(20)
+    # bst.add(30)
+    # bst.add(40)
+    # print(bst.pre_order())

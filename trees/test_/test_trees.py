@@ -52,7 +52,7 @@ def test_post_order():
     node3.right = node4
     tree = BinaryTree()
     tree.root = node1
-    actual = tree.post_order()
+    actual = tree.post_order(tree.root)
     expected = [20, 40, 30, 10]
     assert actual == expected
 
@@ -100,7 +100,7 @@ def test_binary_search_tree_case3():
     bst = BinarySearchTree()
     bst.root = node1
     bst.add(80)
-    actual = bst.post_order()
+    actual = bst.post_order(bst.root)
     expected = [20, 80, 40, 30, 10]
     assert actual == expected
 
