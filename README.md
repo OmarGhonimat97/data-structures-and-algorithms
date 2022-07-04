@@ -15,4 +15,5 @@
 | Code Challenge 11 | [CoC11](stack_queue_pseudo/README.md)         |
 | Code Challenge 12 | [CoC12](stack_queue_animal_shelter/README.md) |
 | Code Challenge 13 | [CoC13](stack_queue_brackets/README.md)       |
-| Code Challenge 14 | [CoC14](trees/README.md)                      |
+| Code Challenge 15 | [CoC15](trees/README.md)                      |
+| Code Challenge 16 | [CoC16](tree_max/README.md)                   |
