@@ -195,7 +195,7 @@ class BinarySearchTree(BinaryTree):
                     _walk(root.left)
                 else:
                     root.left = TNode(value)
-            elif value > root.value:
+            elif value >= root.value:
                 if root.right:
                     _walk(root.right)
                 else:
