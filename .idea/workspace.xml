@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b224448c-01e1-4545-90e5-75f75bf8d4cd" name="Changes" comment="fixing update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trees/trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/trees/trees.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +38,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/LTUC/python401/mid_project_python/pomodoro",
+    "last_opened_file_path": "C:/Users/LTUC/python401/data-structures-and-algorithms/tree_fizz_buzz/assets",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\tree_fizz_buzz\assets" />
+      <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\tree_breadth_first\assets" />
       <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\tree_max\assets" />
       <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\stack_queue_animal_shelter\assets" />
       <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\linked_list_zip" />
-      <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\code_challenge03" />
-      <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\code_challenge02" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tree_max">
+  <component name="RunManager" selected="Python.tree_fizz_buzz">
     <configuration name="circular_queue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stack_queue_animal_shelter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tree_breadth_first" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack_queue_animal_shelter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tree_breadth_first" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stack_queue_animal_shelter/stack_queue_animal_shelter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree_breadth_first/tree_breadth_first.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stack_queue_brackets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tree_fizz_buzz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack_queue_brackets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tree_fizz_buzz" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stack_queue_brackets/stack_queue_brackets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree_fizz_buzz/tree_fizz_buzz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tree_max" />
+        <item itemvalue="Python.tree_fizz_buzz" />
         <item itemvalue="Python.trees" />
+        <item itemvalue="Python.tree_breadth_first" />
+        <item itemvalue="Python.tree_max" />
         <item itemvalue="Python.circular_queue" />
-        <item itemvalue="Python.stack_queue_brackets" />
-        <item itemvalue="Python.stack_queue_animal_shelter" />
       </list>
     </recent_temporary>
   </component>

@@ -18,3 +18,4 @@
 | Code Challenge 15 | [CoC15](trees/README.md)                      |
 | Code Challenge 16 | [CoC16](tree_max/README.md)                   |
 | Code Challenge 17 | [CoC17](tree_breadth_first/README.md)         |
+| Code Challenge 18 | [CoC18](tree_fizz_buzz/README.md)             |

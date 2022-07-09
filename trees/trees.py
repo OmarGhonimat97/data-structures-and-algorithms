@@ -177,7 +177,6 @@ class BinaryTree:
     #     return output
 
 
-
 class BinarySearchTree(BinaryTree):
 
     def add(self, value):
@@ -227,29 +226,29 @@ class BinarySearchTree(BinaryTree):
 
 if __name__ == "__main__":
     tree = BinaryTree()
-    # tree.root = TNode(1)
-    # tree.root.left = TNode(2)
-    # tree.root.right = TNode(5)
+    tree.root = TNode(1)
+    tree.root.left = TNode(2)
+    tree.root.right = TNode(5)
     # tree.root.left.left = TNode(3)
     # tree.root.left.right = TNode(4)
     # tree.root.right.left = TNode(6)
 
     print(tree.breadth_first())
-    tree.pre_order()
-
-    tree = BinaryTree()
-    tree.root = TNode(1)
-    tree.root.left = TNode(2)
-    tree.root.right = TNode(3)
-    tree.root.left.left = TNode(4)
-    tree.root.left.right = TNode(5)
-    tree.root.right.left = TNode(6)
-    print(" pre order ")
-    print(tree.pre_order())
-    print("in order")
-    print(tree.in_order())
-    print("post order ")
-    print(tree.post_order(tree.root))
+    # tree.pre_order()
+    #
+    # tree = BinaryTree()
+    # tree.root = TNode(1)
+    # tree.root.left = TNode(2)
+    # tree.root.right = TNode(3)
+    # tree.root.left.left = TNode(4)
+    # tree.root.left.right = TNode(5)
+    # tree.root.right.left = TNode(6)
+    # print(" pre order ")
+    # print(tree.pre_order())
+    # print("in order")
+    # print(tree.in_order())
+    # print("post order ")
+    # print(tree.post_order(tree.root))
 
     # bst = BinarySearchTree()
     # bst.add(1)
