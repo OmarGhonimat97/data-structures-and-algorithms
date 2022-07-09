@@ -37,7 +37,6 @@ O(n)^m where in is the node(parent) and m is the child to the parent. As each va
 if __name__ == "__main__":
     tree = KArrTree()
     tree.root = KTNode(1)
-    # tree.root.children = KTNode([2, 3, 4])
     tree.root.children.append(KTNode(2))
     tree.root.children.append(KTNode(3))
     tree.root.children[0].children.append(KTNode(15))
