@@ -6,6 +6,8 @@ def quick_sort(arr, left, right):
 
         quick_sort(arr, position+1, right)
 
+    return arr
+
 
 def partition(arr, left, right):
     pivot = arr[right]
