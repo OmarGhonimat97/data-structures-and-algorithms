@@ -21,3 +21,5 @@
 | Code Challenge 18 | [CoC18](tree_fizz_buzz/README.md)             |
 | Code Challenge 26 | [CoC26](sorting/insertion/README.md)          |
 | Code Challenge 27 | [CoC27](sorting/merge/README.md)              |
+| Code Challenge 28 | [CoC28](sorting/quick/README.md)              |
+
