@@ -22,4 +22,6 @@
 | Code Challenge 26 | [CoC26](sorting/insertion/README.md)          |
 | Code Challenge 27 | [CoC27](sorting/merge/README.md)              |
 | Code Challenge 28 | [CoC28](sorting/quick/README.md)              |
+| Code Challenge 30 | [CoC30](hashtable/README.md)                  |
+
 
