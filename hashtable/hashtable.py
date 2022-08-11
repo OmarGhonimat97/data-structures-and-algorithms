@@ -75,13 +75,7 @@ class HashTable:
         This method will take a key as an argument and returns
         the index in the collection of buckets for that key.
         """
-        # hash_key = 0
-        # for i in key:
-        #   hash_key = hash_key + ord(i)
-        # hash_key = hash_key * 283
-        # return hash_key % self.__size
-
-        return sum([ord(i) for i in key]) * 283 % self.__size
+        return (sum([ord(i) for i in str(key)]) * 283) % self.__size
 
     def set(self, key, value):
         """
