@@ -25,5 +25,6 @@
 | Code Challenge 30 | [CoC30](hashtable/README.md)                  |
 | Code Challenge 31 | [CoC31](hashmap_repeated_word/README.md)      |
 | Code Challenge 32 | [CoC32](tree_intersection/README.md)          |
+| Code Challenge 33 | [CoC33](hashmap_left_join/README.md)          |
 
 
