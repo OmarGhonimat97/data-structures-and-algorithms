@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b224448c-01e1-4545-90e5-75f75bf8d4cd" name="Changes" comment="fixing update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph/graph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +44,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/LTUC/python401/data-structures-and-algorithms",
+    "last_opened_file_path": "C:/Users/LTUC/python401/data-structures-and-algorithms/graph_breadth_first/assets",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\graph_breadth_first\assets" />
       <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\hashmap_left_join2" />
       <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\sorting\quick\assets" />
       <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\sorting\merge\assets" />
       <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\sorting\insertion\assets" />
-      <recent name="C:\Users\LTUC\python401\data-structures-and-algorithms\tree_fizz_buzz\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.graph">
+  <component name="RunManager" selected="Python.graph_bread_first">
     <configuration name="graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hashmap_repeated_word" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="graph_bread_first" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +87,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hashmap_repeated_word" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/graph_breadth_first" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hashmap_repeated_word/hashmap_repeated_word.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph_breadth_first/graph_bread_first.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.graph_bread_first" />
         <item itemvalue="Python.graph" />
         <item itemvalue="Python.hashtable_left_join" />
         <item itemvalue="Python tests.Python tests for test_hashtable_left_join.test_example" />
         <item itemvalue="Python.tree_intersection" />
-        <item itemvalue="Python.hashmap_repeated_word" />
       </list>
     </recent_temporary>
   </component>
